@@ -43,7 +43,7 @@ public class Product {
     	
     }
     
-    public Product(String name, String description, float price) {
+    public Product(String name, String description, float price, Category categories) {
     	this.name = name;
     	this.description = description;
     	this.price = price;

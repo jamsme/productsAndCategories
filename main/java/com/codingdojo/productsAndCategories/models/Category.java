@@ -41,7 +41,7 @@ public class Category {
         
     }
     
-    public Category(String name) {
+    public Category(String name, Product products) {
     	this.name = name;
     }
 
